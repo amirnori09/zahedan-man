@@ -607,6 +607,14 @@ html {
   margin-top: 3rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .flex {
   display: flex;
 }
@@ -845,6 +853,10 @@ html {
   padding: 0.75rem;
 }
 
+.p-28 {
+  padding: 7rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -885,6 +897,10 @@ html {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
 }
 
 .font-\[\'vazir\'\] {
