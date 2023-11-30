@@ -18,6 +18,6 @@
 
   .bg-zahedan {
     background: rgb(0, 0, 0);
-    background: linear-gradient(322deg, rgba(0, 0, 0, 1) 79%, rgba(102, 26, 238, 1) 86%);
+    background: linear-gradient(322deg, rgba(0, 0, 0, 1) 79%, rgba(102, 26, 238, 1) 100%);
   }
 }
