@@ -582,6 +582,10 @@ html {
   margin: auto;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -741,6 +745,10 @@ html {
   border-radius: 0.75rem;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -853,6 +861,14 @@ html {
   background-color: #44444;
 }
 
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#FFFFF\] {
+  background-color: #FFFFF;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -867,6 +883,10 @@ html {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .px-2 {
@@ -933,6 +953,11 @@ html {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1007,6 +1032,10 @@ html {
 
 .text-\[\#\] {
   color: #;
+}
+
+.text-\[\#\@\] {
+  color: #@;
 }
 
 .shadow {
