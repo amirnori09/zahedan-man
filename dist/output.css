@@ -582,34 +582,13 @@ html {
   margin: auto;
 }
 
-.m-2 {
-  margin: 0.5rem;
-}
-
-.m-8 {
-  margin: 2rem;
-}
-
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
 }
 
 .flex {
@@ -728,8 +707,25 @@ html {
   border-radius: 0.75rem;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-s-sm {
+  border-start-start-radius: 0.125rem;
+  border-end-start-radius: 0.125rem;
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-none {
+  border-style: none;
 }
 
 .border-zinc-600 {
@@ -767,6 +763,15 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#EEEEEE\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 238 238 / var(--tw-bg-opacity));
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -783,14 +788,25 @@ html {
   padding: 1.5rem;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p-0\.5 {
+  padding: 0.125rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .px-5 {
@@ -813,40 +829,35 @@ html {
   padding-bottom: 1.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .pt-12 {
   padding-top: 3rem;
 }
 
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pr-8 {
-  padding-right: 2rem;
-}
-
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
-.pr-12 {
-  padding-right: 3rem;
-}
-
-.pr-14 {
-  padding-right: 3.5rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .font-\[\'vazir\'\] {
@@ -898,6 +909,10 @@ html {
   font-weight: 100;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .text-\[\#000000\] {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -941,6 +956,10 @@ html {
 .text-\[\#FFFFFF\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#\] {
+  color: #;
 }
 
 .shadow {
